@@ -27,11 +27,19 @@ curl.exe -X POST -H "Content-Type: application/json" -d '{"username":"abc","pass
 ### More
 
 ```
-while(true)  curl -s -k 'GET' -H 'header info' -b 'stuff' 'http://localhost:8080/app3.com/id='$i; done;
+while(true);  curl.exe -s -k 'GET' -H 'header info' -b 'stuff' 'http://localhost:8080/app3.com/id='$i; done;
 ```
 
 ## While
 
 ```
-while curl -sI -o /dev/null -w "%{http_code}\n" https://localhost:8080/aap2; do sleep 0.1; done;
+while curl.exe -sI -o /dev/null -w "%{http_code}\n" https://localhost:8080/app2; do sleep 0.1; done;
 ```
+
+while [ true ]
+do
+curl http://sample.com/hello.php &> /dev/null)
+if [["$?" -eq 0]]; then
+exit 0
+fi
+done
