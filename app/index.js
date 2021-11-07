@@ -36,10 +36,12 @@ app.post('/api/users', jsonParser, function (req, res) {
 
 
 // POST /api/users gets JSON bodies
-app.post('/api/user/login', jsonParser, function (req, res) {
+app.post('/api/user/login', function (req, res) {
   // create user in req.body
   var jsonPerson = '{"first_name":"billy", "age":23}';
   var personObject = JSON.parse(jsonPerson)
+  const result = Object.assign({}, personObject, req.body);
+  //response.json(request.body);
   res.send(personObject);
 })
 
