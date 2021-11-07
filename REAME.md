@@ -1,7 +1,16 @@
-## Power Shell Curl
+## Power Shell Curl Loop While
 ```
-while($true) {curl.exe -d '{"id":5, "username": "martini"}' -H @{"content-type"= "application/json"} http://localhost:5000/api/user/login; echo "`n"; }
+while($true) {curl.exe -d '{"id":5, "username": "martini"}' -H @{"content-type"= "application/json"} http://localhost:5000/api/user/login echo "`n"}
 ```
+
+## Bash Curl Loop While
+```
+while true; do curl -d '{"id":5, "username": "martini"}' -H @'{"content-type"= "application/json"}' http://localhost:5000/api/user/login; echo; done
+or
+while true; do curl -d '{"id":5, "username": "martini"}' -H @{"content-type"= "application/json"} http://localhost:5000/api/user/login; echo; done
+```
+
+
 
 ### Curl cmds with Credential
 
