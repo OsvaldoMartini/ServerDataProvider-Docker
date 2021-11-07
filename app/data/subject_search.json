@@ -1,0 +1,363 @@
+{
+  "subject_search": [
+    {
+      "departament": [
+        {
+          "demographic": [
+            {
+              "group_search": [
+                {
+                  "types_search": [
+                    {
+                      "nhs_number": [
+                        {
+                          "name": "NHS Number",
+                          "type": "number",
+                          "max_size": 12,
+                          "regex": "^[0-9]{1,12}$"
+                        }
+                      ],
+                      "hub_number": [
+                        {
+                          "name": "Hub",
+                          "type": "number",
+                          "max_size": 3,
+                          "regex": "^[0-9]{1,3}$"
+                        }
+                      ],
+                      "screening_center": [
+                        {
+                          "name": "Screening Center",
+                          "type": "number",
+                          "max_size": 3,
+                          "regex": "^[0-9]{1,3}$"
+                        }
+                      ],
+                      "gp_pratice": [
+                        {
+                          "name": "GP Practice",
+                          "type": "string",
+                          "max_size": 30,
+                          "regex": "^[aA-zZ][0-9]{1,30}$"
+                        }
+                      ],
+                      "screening_status": [
+                        {
+                          "name": "Screening Status",
+                          "type": "array",
+                          "items": {
+                            "type": "string",
+                            "enum": [
+                              "active",
+                              "inactive",
+                              "open"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "episode": [
+            {
+              "group_search": [
+                {
+                  "types_search": [
+                    {
+                      "nhs_number": [
+                        {
+                          "name": "NHS Number",
+                          "type": "number",
+                          "max_size": 12,
+                          "regex": "^[0-9]{1,12}$"
+                        }
+                      ],
+                      "hub_number": [
+                        {
+                          "name": "Hub",
+                          "type": "number",
+                          "max_size": 3,
+                          "regex": "^[0-9]{1,3}$"
+                        }
+                      ],
+                      "screening_center": [
+                        {
+                          "name": "Screening Center",
+                          "type": "number",
+                          "max_size": 3,
+                          "regex": "^[0-9]{1,3}$"
+                        }
+                      ],
+                      "gp_pratice": [
+                        {
+                          "name": "GP Practice",
+                          "type": "string",
+                          "max_size": 30,
+                          "regex": "^[aA-zZ][0-9]{1,30}$"
+                        }
+                      ],
+                      "screening_status": [
+                        {
+                          "name": "Screening Status",
+                          "type": "array",
+                          "items": {
+                            "type": "string",
+                            "enum": [
+                              "active",
+                              "inactive",
+                              "open"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "screening": [
+            {
+              "group_search": [
+                {
+                  "types_search": [
+                    {
+                      "nhs_number": [
+                        {
+                          "name": "NHS Number",
+                          "type": "number",
+                          "max_size": 12,
+                          "regex": "^[0-9]{1,12}$"
+                        }
+                      ],
+                      "hub_number": [
+                        {
+                          "name": "Hub",
+                          "type": "number",
+                          "max_size": 3,
+                          "regex": "^[0-9]{1,3}$"
+                        }
+                      ],
+                      "screening_center": [
+                        {
+                          "name": "Screening Center",
+                          "type": "number",
+                          "max_size": 3,
+                          "regex": "^[0-9]{1,3}$"
+                        }
+                      ],
+                      "gp_pratice": [
+                        {
+                          "name": "GP Practice",
+                          "type": "string",
+                          "max_size": 30,
+                          "regex": "^[aA-zZ][0-9]{1,30}$"
+                        }
+                      ],
+                      "screening_status": [
+                        {
+                          "name": "Screening Status",
+                          "type": "array",
+                          "items": {
+                            "type": "string",
+                            "enum": [
+                              "active",
+                              "inactive",
+                              "open"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "diagnostic": [
+            {
+              "group_search": [
+                {
+                  "types_search": [
+                    {
+                      "nhs_number": [
+                        {
+                          "name": "NHS Number",
+                          "type": "number",
+                          "max_size": 12,
+                          "regex": "^[0-9]{1,12}$"
+                        }
+                      ],
+                      "hub_number": [
+                        {
+                          "name": "Hub",
+                          "type": "number",
+                          "max_size": 3,
+                          "regex": "^[0-9]{1,3}$"
+                        }
+                      ],
+                      "screening_center": [
+                        {
+                          "name": "Screening Center",
+                          "type": "number",
+                          "max_size": 3,
+                          "regex": "^[0-9]{1,3}$"
+                        }
+                      ],
+                      "gp_pratice": [
+                        {
+                          "name": "GP Practice",
+                          "type": "string",
+                          "max_size": 30,
+                          "regex": "^[aA-zZ][0-9]{1,30}$"
+                        }
+                      ],
+                      "screening_status": [
+                        {
+                          "name": "Screening Status",
+                          "type": "array",
+                          "items": {
+                            "type": "string",
+                            "enum": [
+                              "active",
+                              "inactive",
+                              "open"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "kit_status": [
+            {
+              "group_search": [
+                {
+                  "types_search": [
+                    {
+                      "nhs_number": [
+                        {
+                          "name": "NHS Number",
+                          "type": "number",
+                          "max_size": 12,
+                          "regex": "^[0-9]{1,12}$"
+                        }
+                      ],
+                      "hub_number": [
+                        {
+                          "name": "Hub",
+                          "type": "number",
+                          "max_size": 3,
+                          "regex": "^[0-9]{1,3}$"
+                        }
+                      ],
+                      "screening_center": [
+                        {
+                          "name": "Screening Center",
+                          "type": "number",
+                          "max_size": 3,
+                          "regex": "^[0-9]{1,3}$"
+                        }
+                      ],
+                      "gp_pratice": [
+                        {
+                          "name": "GP Practice",
+                          "type": "string",
+                          "max_size": 30,
+                          "regex": "^[aA-zZ][0-9]{1,30}$"
+                        }
+                      ],
+                      "screening_status": [
+                        {
+                          "name": "Screening Status",
+                          "type": "array",
+                          "items": {
+                            "type": "string",
+                            "enum": [
+                              "active",
+                              "inactive",
+                              "open"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "surveilance": [
+            {
+              "group_search": [
+                {
+                  "types_search": [
+                    {
+                      "nhs_number": [
+                        {
+                          "name": "NHS Number",
+                          "type": "number",
+                          "max_size": 12,
+                          "regex": "^[0-9]{1,12}$"
+                        }
+                      ],
+                      "hub_number": [
+                        {
+                          "name": "Hub",
+                          "type": "number",
+                          "max_size": 3,
+                          "regex": "^[0-9]{1,3}$"
+                        }
+                      ],
+                      "screening_center": [
+                        {
+                          "name": "Screening Center",
+                          "type": "number",
+                          "max_size": 3,
+                          "regex": "^[0-9]{1,3}$"
+                        }
+                      ],
+                      "gp_pratice": [
+                        {
+                          "name": "GP Practice",
+                          "type": "string",
+                          "max_size": 30,
+                          "regex": "^[aA-zZ][0-9]{1,30}$"
+                        }
+                      ],
+                      "screening_status": [
+                        {
+                          "name": "Screening Status",
+                          "type": "array",
+                          "items": {
+                            "type": "string",
+                            "enum": [
+                              "active",
+                              "inactive",
+                              "open"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "labs": [
+            {
+              "missing_field": "missing_value"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
