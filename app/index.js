@@ -35,6 +35,16 @@ app.post('/api/users', jsonParser, function (req, res) {
 })
 
 
+// POST /api/users gets JSON bodies
+app.post('/api/user/login', jsonParser, function (req, res) {
+  // create user in req.body
+  var jsonPerson = '{"first_name":"billy", "age":23}';
+  var personObject = JSON.parse(jsonPerson)
+  res.send(personObject);
+})
+
+
+
 app.get("/", (req, res) => {
         res.send(`appid: ${appid} home page: says helo!`);
 });

@@ -1,3 +1,8 @@
+## Power Shell Curl
+```
+while($true) {curl.exe -d '{"id":5, "username": "martini"}' -H @{"content-type"= "application/json"} http://localhost:5000/api/user/login; echo "`n"; }
+```
+
 ### Curl cmds with Credential
 
 ```
