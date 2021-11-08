@@ -1,8 +1,10 @@
-const path = require('path');
-const fs = require('fs')
 const express = require('express');
 const bodyParser = require('body-parser')
-const appid = process.env.APPID|9999;
+const appid = process.env.APPID;
+
+const path = require('path');
+const fs = require('fs')
+
 const DIR = './uploads';
 
 const app = express();
